@@ -1,1 +1,517 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
+label {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.App {
+
+    background-color: black;
+    min-height: 100vh;
+}
+
+.headingBox {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.head {
+    color: rgb(35, 244, 150);
+}
+
+.biggerBox {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+
+}
+
+.bigBox {
+    background-color: rgb(73, 68, 68);
+    /* height: 350px; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigBoxUpper {
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+}
+
+
+
+.flexxxxxxx {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+br {
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+
+.bigBoxUpper-subitem1 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Satisfy', cursive;
+    height: 30px;
+}
+
+
+.bigBoxUpper-subitem2 {
+    height: 27.9px;
+    padding-left: 10px;
+    width: 170px;
+    border-radius: 0px;
+    border: none;
+}
+
+
+.bigBoxUpper-item2 {
+    margin-left: 40px;
+}
+
+
+.bigBoxUpper-subitem3 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Satisfy', cursive;
+    height: 30px;
+}
+
+.bigBoxUpper-subitem4 {
+    height: 27.9px;
+    padding-left: 10px;
+    width: 170px;
+    border-radius: 0px;
+    border: none;
+}
+
+.bigBoxUpper-item3 {
+    margin-left: 40px;
+}
+
+.bigBoxUpper-subitem5 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Satisfy', cursive;
+    height: 30px;
+}
+
+.bigBoxUpper-subitem6 {
+    height: 27.9px;
+    padding-left: 10px;
+    width: 170px;
+    border-radius: 0px;
+    border: none;
+}
+
+.bigBoxUpper-item4 {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.bigBoxUpper-subitem7 {
+    padding: 10px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: none;
+    background-color: rgb(35, 244, 150);
+    color: aliceblue;
+    font-size: 15px;
+    border: none;
+}
+
+.bigBoxLower {
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(25, 54, 54); */
+    display: flex;
+    flex-direction: column;
+}
+
+.bigBoxLower-first {
+    display: flex;
+}
+
+
+
+.bigBoxLower-item1 {
+    width: 90px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bigBoxLower-subitem1 {
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Satisfy', cursive;
+
+}
+
+
+
+.bigBoxLower-item2 {
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.bigBoxLower-subitem2 {
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Satisfy', cursive;
+}
+
+.bigBoxLower-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigBoxLower-item3 {
+    /* margin-top: 20px; */
+    height: 100px;
+    width: 93.5%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.lowerLeftBox {
+    width: 80%;
+}
+
+.lowerLeftBox-item1 {
+    color: rgb(35, 244, 150);
+    padding-left: 20px;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    font-family: 'Satisfy', cursive;
+}
+
+.lowerLeftBox-item2 {
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    font-size: 17px;
+    font-family: 'Satisfy', cursive;
+}
+
+.lowerLeftBox-item3 {
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    font-size: 17px;
+    font-family: 'Satisfy', cursive;
+}
+
+.lowerRightBox {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.deletediv {
+    width: 40px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.deletediv-item {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    color: aliceblue;
+}
+
+.deletediv-item:hover {
+    color: red;
+    transition: 0.5s ease;
+}
+
+
+.rightdiv {
+    width: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.rightdiv-item {
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+}
+
+.rightdiv-item:hover {
+    color: rgb(35, 244, 150);
+    transition: 0.5s ease;
+}
+
+.active {
+    background-color: rgb(35, 244, 150);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add a media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .biggerBox {
+        padding-top: 20px;
+    }
+
+    .bigBox {
+        width: 80%;
+    }
+
+    .bigBoxUpper {
+        height: auto;
+    }
+
+    .bigBoxUpper-subitem1,
+    .bigBoxUpper-subitem3,
+    .bigBoxUpper-subitem5 {
+        font-size: 16px;
+    }
+
+    .bigBoxUpper-subitem2,
+    .bigBoxUpper-subitem4,
+    .bigBoxUpper-subitem6 {
+        width: 100%;
+    }
+
+    .bigBoxUpper-item2,
+    .bigBoxUpper-item3,
+    .bigBoxUpper-item4 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .bigBoxUpper-item4 {
+        margin-top: 20px;
+    }
+
+    .bigBoxLower-item1,
+    .bigBoxLower-item2 {
+        width: 70px;
+        height: 25px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bigBoxLower-item3 {
+        height: 150px;
+        width: 100%;
+    }
+
+    .flexxxxxxx {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .deletediv,
+    .rightdiv {
+        margin-left: 10px;
+    }
+}
+
+/* Add a media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    .bigBox {
+        width: 90%;
+    }
+
+    .flexxxxxxx {
+        padding-top: 10px;
+    }
+
+    .bigBoxUpper-subitem1,
+    .bigBoxUpper-subitem3,
+    .bigBoxUpper-subitem5 {
+        font-size: 14px;
+    }
+
+    .bigBoxUpper-subitem2,
+    .bigBoxUpper-subitem4,
+    .bigBoxUpper-subitem6 {
+        width: 100%;
+    }
+
+    .bigBoxLower-item1,
+    .bigBoxLower-item2 {
+        width: 60px;
+        height: 20px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .bigBoxLower-item3 {
+        height: 120px;
+    }
+
+    .deletediv,
+    .rightdiv {
+        margin-left: 5px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared styles for text labels */
+.label {
+    color: white;
+    font-size: 18px;
+    font-family: 'Satisfy', cursive;
+    height: 30px;
+}
+
+/* Shared styles for input fields */
+.inputField {
+    height: 27.9px;
+    padding-left: 10px;
+    width: 170px;
+    border-radius: 0px;
+    border: none;
+}
+
+/* Shared styles for buttons */
+.button {
+    padding: 10px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: none;
+    background-color: rgb(35, 244, 150);
+    color: aliceblue;
+    font-size: 15px;
+    border: none;
+}
+
+/* Shared styles for task item boxes */
+.taskItem {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 93.5%;
+    background-color: rgb(44, 44, 44);
+}
+
+/* Responsive styles using media queries */
+@media (max-width: 768px) {
+    .biggerBox {
+        padding-top: 20px;
+    }
+
+    .bigBox {
+        width: 80%;
+    }
+
+    .inputField,
+    .button {
+        width: 100%;
+    }
+
+    .bigBoxUpper-subitem1,
+    .bigBoxUpper-subitem3,
+    .bigBoxUpper-subitem5 {
+        font-size: 16px;
+    }
+
+    .bigBoxUpper-item2,
+    .bigBoxUpper-item3,
+    .bigBoxUpper-item4 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .bigBoxUpper-item4 {
+        margin-top: 20px;
+    }
+
+    .bigBoxLower-item1,
+    .bigBoxLower-item2 {
+        width: 70px;
+        height: 25px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .taskItem {
+        height: 150px;
+    }
+
+    .deletediv,
+    .rightdiv {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bigBox {
+        width: 90%;
+    }
+
+    .bigBoxUpper-subitem1,
+    .bigBoxUpper-subitem3,
+    .bigBoxUpper-subitem5 {
+        font-size: 14px;
+    }
+
+    .bigBoxLower-item1,
+    .bigBoxLower-item2 {
+        width: 60px;
+        height: 20px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .taskItem {
+        height: 120px;
+    }
+
+    .deletediv,
+    .rightdiv {
+        margin-left: 5px;
+    }
+}
